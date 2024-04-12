@@ -3,9 +3,8 @@ import { fileURLToPath, URL } from 'node:url';
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/https://github.com/hushkov/leadsdoit-notes-app/',
+  base: '/https://hushkov.github.io/leadsdoit-notes-app/',
   plugins: [vue()],
   resolve: {
     alias: {
