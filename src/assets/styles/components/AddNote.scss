@@ -1,0 +1,59 @@
+@import '../global';
+
+.note-form {
+  background: $background-color;
+  padding: 20px;
+  border-radius: 10px;
+
+  &__label {
+    display: block;
+    color: $label-color;
+    text-transform: uppercase;
+    font-size: $label-font-size;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 20px 0 10px 0;
+  }
+
+  &__input,
+  &__textarea,
+  &__select {
+    padding: 10px;
+    border: 0;
+    border-bottom: $border;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  &__textarea {
+    border: $border;
+    height: 100px;
+  }
+
+  &__button {
+    display: block;
+    margin: 20px auto 0;
+    background: $button-bg-color;
+    color: $text-color;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: $border-radius;
+    font-size: $button-font-size;
+    cursor: pointer;
+    @include transition(background-color);
+
+    &:hover {
+      background-color: darken($button-bg-color, 10%);
+    }
+  }
+
+  &__favorite {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+
+    &__checkbox {
+      width: auto;
+    }
+  }
+}

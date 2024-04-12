@@ -1,14 +1,43 @@
 # leadsDoIt
 
-This template should help get you started developing with Vue 3 in Vite.
+Welcome to the LeadsDoIt Notes App, a lightweight and dynamic web application built with Vue 3 and Vite. This project is designed to provide a seamless experience for managing notes efficiently, utilizing the latest web technologies for rapid development and high performance.
 
-## Recommended IDE Setup
+## Tech
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Vue 3**
+- **Vite**
+- **Vuex**
+- **SASS**
 
-## Customize configuration
+## Project Structure
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Below is an outline of the project's structure:
+LEADSDOIT/
+│
+├── src/
+│ ├── assets/
+│ │ └── styles/
+│ │ ├── AddNote.scss
+│ │ ├── EditNote.scss
+│ │ ├── FilterNav.scss
+│ │ ├── Navbar.scss
+│ │ └── Note.scss
+│ ├── components/
+│ │ ├── FilterNav.vue
+│ │ ├── Navbar.vue
+│ │ └── Note.vue
+│ ├── constants/
+│ │ └── index.js
+│ ├── router/
+│ │ └── index.js
+│ ├── store/
+│ │ └── index.js
+│ └── views/
+│ ├── AddNote.vue
+│ ├── EditNote.vue
+│ ├── Home.vue
+│ └── App.vue
+└── README.md
 
 ## Project Setup
 
@@ -27,4 +56,5 @@ npm run dev
 ```sh
 npm run build
 ```
+
 # leadsdoit-notes-app

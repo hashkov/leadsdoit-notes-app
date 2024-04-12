@@ -1,0 +1,57 @@
+@import '../global';
+
+.note {
+  margin: 20px auto;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  box-shadow: $shadow;
+  border-left: 4px solid $primary-color;
+
+  &__title {
+    cursor: pointer;
+  }
+
+  &__actions {
+    @include flex-center-between;
+
+    .note__icon {
+      font-size: 24px;
+      margin-left: 10px;
+      color: $icon-color;
+      cursor: pointer;
+      text-decoration: none;
+
+      &:hover {
+        color: $icon-hover-color;
+      }
+    }
+  }
+
+  &__details {
+    margin-top: 10px;
+
+    .note__text {
+      font-size: $text-font-size;
+      margin-top: 5px;
+
+      &:not(:first-child) {
+        text-align: end;
+      }
+
+      .note__label {
+        font-weight: bold;
+        margin-right: 5px;
+        color: $icon-color;
+      }
+    }
+  }
+
+  &--favorite {
+    border-left-color: $favorite-color;
+
+    .note__icon--favorite {
+      color: $favorite-color;
+    }
+  }
+}
