@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "homepage": "https://hushkov.github.io/leadsdoit-notes-app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
