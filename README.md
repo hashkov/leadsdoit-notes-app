@@ -1,4 +1,4 @@
-# leadsDoIt
+# leadsDoIt Notes App
 
 Welcome to the LeadsDoIt Notes App, a lightweight and dynamic web application built with Vue 3 and Vite. This project is designed to provide a seamless experience for managing notes efficiently, utilizing the latest web technologies for rapid development and high performance.
 
@@ -21,9 +21,9 @@ Welcome to the LeadsDoIt Notes App, a lightweight and dynamic web application bu
   - `constants/`: Constants and enums used throughout the application.
   - `router/`: Vue Router configuration files for handling routing.
   - `store/`: Vuex store management, including state, actions, mutations, and getters.
+  - `services/`: Service functions to handle external interactions such as API calls or local storage manipulation.
   - `views/`: Vue components that represent different pages or routes in the application.
-- `public/`: Contains the `favicon.ico` and other assets that will be served directly.
-- `dist/`: Default build output directory for Vite (ignored by `.
+- `index.html`: Entry-point HTML file for the application.
 
 ## Project Setup
 
@@ -36,11 +36,3 @@ npm install
 ```sh
 npm run dev
 ```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-# leadsdoit-notes-app
